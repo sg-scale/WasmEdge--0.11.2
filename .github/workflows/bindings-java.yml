@@ -89,7 +89,7 @@ jobs:
           ./gradlew test
 
       - name: Upload JNI lib
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: jni-libs
           path: |
@@ -162,7 +162,7 @@ jobs:
           ./gradlew test
 
       - name: Upload JNI lib
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: jni-libs
           path: |
@@ -260,7 +260,7 @@ jobs:
           cd bindings/java/wasmedge-java
           ./gradlew test
       - name: Upload JNI lib
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: jni-libs
           path: |
